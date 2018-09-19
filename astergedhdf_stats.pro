@@ -1,7 +1,7 @@
 pro astergedhdf_stats
 
 ; Open file
-folderpath = 'D:/03 Emissivity/01 Standard Diviation/ST emissivity_stdev example from Ray/' ;The local address
+folderpath = 'D:/03 Emissivity/01 Standard Diviation/ASTER GED/' ;The local address
 cd, folderpath ; change directory
 ; Create a log file
 logfname= folderpath + 'stat_log_file.yaml' 
